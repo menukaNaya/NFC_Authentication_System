@@ -2,6 +2,7 @@
 Authentication system using NFC peer to peer.
 
 ***For you to know***
+
 GoInG is the mobile/user application.
 
 Going_Reader is the Reader device application.
