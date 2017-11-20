@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GoInGReader</string>
+    <string name="textview_name">Recieved Messages</string>
+    <string name="image_name">Change</string>
+    <string name="text_view_text">Tap Me using your Mobile!</string>
+</resources>
