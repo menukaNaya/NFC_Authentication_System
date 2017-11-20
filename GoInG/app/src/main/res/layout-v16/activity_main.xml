@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_image"
+    tools:context="com.auth.nfc.going.MainActivity">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:width="375dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/edit_text_nme"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:width="300dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/text_inout_password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:width="100dp"
+        android:height="10dp"
+        android:background="@drawable/button_specs"
+        android:fontFamily="serif"
+        android:onClick="signIn"
+        android:text="@string/button_name"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/date_time_tapped"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_in_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="@string/tapped_time"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoInG</string>
+    <string name="edit_text_nme">Your Company Email</string>
+    <string name="text_inout_password">Your Password</string>
+    <string name="button_name">Sign In</string>
+    <string name="tapped_time" />
+</resources>
